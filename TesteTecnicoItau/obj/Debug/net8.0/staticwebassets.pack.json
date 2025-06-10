@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteTecnicoItau.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TesteTecnicoItau.w0olwuk860.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TesteTecnicoItau.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TesteTecnicoItau.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TesteTecnicoItau.props",
+      "PackagePath": "build\\TesteTecnicoItau.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TesteTecnicoItau.props",
+      "PackagePath": "buildMultiTargeting\\TesteTecnicoItau.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TesteTecnicoItau.props",
+      "PackagePath": "buildTransitive\\TesteTecnicoItau.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

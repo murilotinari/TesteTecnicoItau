@@ -1,0 +1,11 @@
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\bin\Debug\net8.0\TesteTecnicoItau.Domain.deps.json
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\bin\Debug\net8.0\TesteTecnicoItau.Domain.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\bin\Debug\net8.0\TesteTecnicoItau.Domain.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\TesteTecnicoItau.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\TesteTecnicoItau.Domain.AssemblyInfoInputs.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\TesteTecnicoItau.Domain.AssemblyInfo.cs
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\TesteTecnicoItau.Domain.csproj.CoreCompileInputs.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\TesteTecnicoItau.Domain.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\refint\TesteTecnicoItau.Domain.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\TesteTecnicoItau.Domain.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Domain\obj\Debug\net8.0\ref\TesteTecnicoItau.Domain.dll

@@ -1,0 +1,15 @@
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\bin\Debug\net8.0\TesteTecnicoItau.Application.deps.json
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\bin\Debug\net8.0\TesteTecnicoItau.Application.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\bin\Debug\net8.0\TesteTecnicoItau.Application.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\bin\Debug\net8.0\TesteTecnicoItau.Domain.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\bin\Debug\net8.0\TesteTecnicoItau.Domain.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTecnicoItau.Application.csproj.AssemblyReference.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTecnicoItau.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTecnicoItau.Application.AssemblyInfoInputs.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTecnicoItau.Application.AssemblyInfo.cs
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTecnicoItau.Application.csproj.CoreCompileInputs.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTec.06FF01C2.Up2Date
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTecnicoItau.Application.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\refint\TesteTecnicoItau.Application.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\TesteTecnicoItau.Application.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Application\obj\Debug\net8.0\ref\TesteTecnicoItau.Application.dll

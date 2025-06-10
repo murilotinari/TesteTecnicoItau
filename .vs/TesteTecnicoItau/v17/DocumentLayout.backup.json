@@ -1,0 +1,907 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.application\\applicationdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|solutionrelative:testetecnicoitau.application\\applicationdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\infraestructure\\icotacaob3apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\infraestructure\\icotacaob3apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7746E6A-37DD-43E5-B615-38B51FFC68A2}|TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.api\\cotacaob3apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7746E6A-37DD-43E5-B615-38B51FFC68A2}|TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj|solutionrelative:testetecnicoitau.infrastructure.api\\cotacaob3apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|solutionrelative:testetecnicoitau\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau\\controllers\\posicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|solutionrelative:testetecnicoitau\\controllers\\posicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau\\controllers\\cotacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|solutionrelative:testetecnicoitau\\controllers\\cotacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|solutionrelative:testetecnicoitau\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau\\controllers\\corretoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|solutionrelative:testetecnicoitau\\controllers\\corretoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|solutionrelative:testetecnicoitau\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\models\\posicaoglobaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\models\\posicaoglobaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.kafkaworker\\cotacaoconsumerworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|solutionrelative:testetecnicoitau.infrastructure.kafkaworker\\cotacaoconsumerworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.application\\services\\cotacaoprocessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|solutionrelative:testetecnicoitau.application\\services\\cotacaoprocessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\application\\iinvestimentousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\application\\iinvestimentousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\repositories\\posicaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\repositories\\posicaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.application\\services\\investimentousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|solutionrelative:testetecnicoitau.application\\services\\investimentousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\application\\icotacaoprocessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\application\\icotacaoprocessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\models\\posicaopapeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\models\\posicaopapeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\models\\cotacaoativodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\models\\cotacaoativodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\models\\precomediodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\models\\precomediodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\models\\totalcorretagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\models\\totalcorretagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.kafkaworker\\testetecnicoitau.infrastructure.kafkaworker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|solutionrelative:testetecnicoitau.infrastructure.kafkaworker\\testetecnicoitau.infrastructure.kafkaworker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\testetecnicoitau.infrastructure.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\testetecnicoitau.infrastructure.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7746E6A-37DD-43E5-B615-38B51FFC68A2}|TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.api\\testetecnicoitau.infrastructure.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7746E6A-37DD-43E5-B615-38B51FFC68A2}|TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj|solutionrelative:testetecnicoitau.infrastructure.api\\testetecnicoitau.infrastructure.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.application\\testetecnicoitau.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|solutionrelative:testetecnicoitau.application\\testetecnicoitau.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}|TesteTecnicoItau\\TesteTecnicoItau.csproj|solutionrelative:testetecnicoitau\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\testetecnicoitau.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\testetecnicoitau.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\repositories\\ioperacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\repositories\\ioperacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\repositories\\operacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\repositories\\operacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\repositories\\cotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\repositories\\cotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\repositories\\ativorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\repositories\\ativorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.application\\helpers\\calculoshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}|TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj|solutionrelative:testetecnicoitau.application\\helpers\\calculoshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AA25FE-AD9C-46D6-A571-12832C057DA9}|TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.tests\\investimentohelpertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AA25FE-AD9C-46D6-A571-12832C057DA9}|TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj|solutionrelative:testetecnicoitau.tests\\investimentohelpertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AA25FE-AD9C-46D6-A571-12832C057DA9}|TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.tests\\testetecnicoitau.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1AA25FE-AD9C-46D6-A571-12832C057DA9}|TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj|solutionrelative:testetecnicoitau.tests\\testetecnicoitau.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\models\\topcorretagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\models\\topcorretagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\models\\topposicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\models\\topposicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\testetecnicoitau.infrastructure.data.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\testetecnicoitau.infrastructure.data.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\entities\\posicaoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\entities\\posicaoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\entities\\ativoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\entities\\ativoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\entities\\cotacaoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\entities\\cotacaoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\entities\\operacaoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\entities\\operacaoentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\entities\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\entities\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.kafkaworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|solutionrelative:testetecnicoitau.infrastructure.kafkaworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.data\\infrastructuredatadependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3579AFC2-7359-4B10-9FAD-11717689B11C}|TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj|solutionrelative:testetecnicoitau.infrastructure.data\\infrastructuredatadependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7746E6A-37DD-43E5-B615-38B51FFC68A2}|TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.api\\infrastructureapidependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7746E6A-37DD-43E5-B615-38B51FFC68A2}|TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj|solutionrelative:testetecnicoitau.infrastructure.api\\infrastructureapidependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\repositories\\iposicaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\repositories\\iposicaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\repositories\\icotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\repositories\\icotacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.domain\\interfaces\\repositories\\iativorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}|TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj|solutionrelative:testetecnicoitau.domain\\interfaces\\repositories\\iativorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|c:\\users\\muril\\source\\repos\\testetecnicoitau\\testetecnicoitau.infrastructure.kafkaworker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}|TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj|solutionrelative:testetecnicoitau.infrastructure.kafkaworker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CotacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\CotacoesController.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau\\Controllers\\CotacoesController.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\CotacoesController.cs",
+              "RelativeToolTip": "TesteTecnicoItau\\Controllers\\CotacoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T00:38:40.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PosicoesController.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\PosicoesController.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau\\Controllers\\PosicoesController.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\PosicoesController.cs",
+              "RelativeToolTip": "TesteTecnicoItau\\Controllers\\PosicoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:48:19.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RankingController.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\RankingController.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau\\Controllers\\RankingController.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\RankingController.cs",
+              "RelativeToolTip": "TesteTecnicoItau\\Controllers\\RankingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T00:39:02.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CotacaoB3ApiManager.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Api\\CotacaoB3ApiManager.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Api\\CotacaoB3ApiManager.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Api\\CotacaoB3ApiManager.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Api\\CotacaoB3ApiManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T00:56:03.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDependency.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\ApplicationDependency.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Application\\ApplicationDependency.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\ApplicationDependency.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Application\\ApplicationDependency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T00:52:12.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICotacaoB3ApiManager.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Infraestructure\\ICotacaoB3ApiManager.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Infraestructure\\ICotacaoB3ApiManager.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Infraestructure\\ICotacaoB3ApiManager.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Infraestructure\\ICotacaoB3ApiManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T02:28:30.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "TesteTecnicoItau\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T00:38:33.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CorretoraController.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\CorretoraController.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau\\Controllers\\CorretoraController.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Controllers\\CorretoraController.cs",
+              "RelativeToolTip": "TesteTecnicoItau\\Controllers\\CorretoraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T00:38:50.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Program.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau\\Program.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Program.cs",
+              "RelativeToolTip": "TesteTecnicoItau\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:01:16.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PosicaoGlobalDto.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\PosicaoGlobalDto.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Models\\PosicaoGlobalDto.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\PosicaoGlobalDto.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Models\\PosicaoGlobalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:37:11.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IInvestimentoUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Application\\IInvestimentoUsuarioService.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Application\\IInvestimentoUsuarioService.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Application\\IInvestimentoUsuarioService.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Application\\IInvestimentoUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:31:14.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PosicaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\PosicaoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\PosicaoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\PosicaoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\PosicaoRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:22:53.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CotacaoProcessorService.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\Services\\CotacaoProcessorService.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Application\\Services\\CotacaoProcessorService.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\Services\\CotacaoProcessorService.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Application\\Services\\CotacaoProcessorService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T01:56:49.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CotacaoConsumerWorker.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\CotacaoConsumerWorker.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.KafkaWorker\\CotacaoConsumerWorker.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\CotacaoConsumerWorker.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.KafkaWorker\\CotacaoConsumerWorker.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T21:21:29.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvestimentoUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\Services\\InvestimentoUsuarioService.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Application\\Services\\InvestimentoUsuarioService.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\Services\\InvestimentoUsuarioService.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Application\\Services\\InvestimentoUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T02:03:35.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PosicaoPapelDto.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\PosicaoPapelDto.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Models\\PosicaoPapelDto.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\PosicaoPapelDto.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Models\\PosicaoPapelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:19:43.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CotacaoAtivoDto.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\CotacaoAtivoDto.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Models\\CotacaoAtivoDto.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\CotacaoAtivoDto.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Models\\CotacaoAtivoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:27:04.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PrecoMedioDto.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\PrecoMedioDto.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Models\\PrecoMedioDto.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\PrecoMedioDto.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Models\\PrecoMedioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:25:42.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICotacaoProcessorService.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Application\\ICotacaoProcessorService.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Application\\ICotacaoProcessorService.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Application\\ICotacaoProcessorService.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Application\\ICotacaoProcessorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T01:55:09.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TotalCorretagemDto.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\TotalCorretagemDto.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Models\\TotalCorretagemDto.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\TotalCorretagemDto.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Models\\TotalCorretagemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T00:54:19.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TesteTecnicoItau.Infrastructure.KafkaWorker.csproj",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.KafkaWorker\\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-08T21:17:49.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TesteTecnicoItau.Infrastructure.Data",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T00:49:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TesteTecnicoItau.Infrastructure.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Api\\TesteTecnicoItau.Infrastructure.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T00:53:18.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TesteTecnicoItau.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj",
+              "RelativeToolTip": "TesteTecnicoItau.Application\\TesteTecnicoItau.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T00:53:34.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "TesteTecnicoItau\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau\\Components\\_Imports.razor",
+              "RelativeToolTip": "TesteTecnicoItau\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T01:01:46.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TesteTecnicoItau.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\TesteTecnicoItau.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T02:15:29.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:02:03.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IOperacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IOperacaoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IOperacaoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IOperacaoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IOperacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:58:46.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:38:52.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OperacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\OperacaoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\OperacaoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\OperacaoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\OperacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:15:39.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CotacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\CotacaoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\CotacaoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\CotacaoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\CotacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:49:43.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AtivoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\AtivoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\AtivoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Repositories\\AtivoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\Repositories\\AtivoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:19:45.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:06:38.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InvestimentoHelperTests.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Tests\\InvestimentoHelperTests.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Tests\\InvestimentoHelperTests.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Tests\\InvestimentoHelperTests.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Tests\\InvestimentoHelperTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:35:11.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CalculosHelper.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\Helpers\\CalculosHelper.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Application\\Helpers\\CalculosHelper.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Application\\Helpers\\CalculosHelper.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Application\\Helpers\\CalculosHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T14:28:27.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TesteTecnicoItau.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj",
+              "RelativeToolTip": "TesteTecnicoItau.Tests\\TesteTecnicoItau.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-07T21:43:56.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TopCorretagemDto.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\TopCorretagemDto.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Models\\TopCorretagemDto.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\TopCorretagemDto.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Models\\TopCorretagemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:52:21.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TopPosicaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\TopPosicaoDto.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Models\\TopPosicaoDto.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Models\\TopPosicaoDto.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Models\\TopPosicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:02:23.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TesteTecnicoItau.Infrastructure.Data",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\TesteTecnicoItau.Infrastructure.Data.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T00:49:59.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AtivoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\AtivoEntity.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Entities\\AtivoEntity.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\AtivoEntity.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Entities\\AtivoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T00:54:38.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PosicaoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\PosicaoEntity.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Entities\\PosicaoEntity.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\PosicaoEntity.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Entities\\PosicaoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:16:04.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UsuarioEntity.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\UsuarioEntity.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Entities\\UsuarioEntity.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\UsuarioEntity.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Entities\\UsuarioEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:13:42.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OperacaoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\OperacaoEntity.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Entities\\OperacaoEntity.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\OperacaoEntity.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Entities\\OperacaoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:17:29.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CotacaoEntity.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\CotacaoEntity.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Entities\\CotacaoEntity.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Entities\\CotacaoEntity.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Entities\\CotacaoEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:17:38.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "InfrastructureApiDependency.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Api\\InfrastructureApiDependency.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Api\\InfrastructureApiDependency.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Api\\InfrastructureApiDependency.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Api\\InfrastructureApiDependency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:07:36.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "InfrastructureDataDependency.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\InfrastructureDataDependency.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.Data\\InfrastructureDataDependency.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.Data\\InfrastructureDataDependency.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.Data\\InfrastructureDataDependency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:53:07.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\Program.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.KafkaWorker\\Program.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\Program.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.KafkaWorker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T21:20:24.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IPosicaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IPosicaoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IPosicaoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IPosicaoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IPosicaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:59:15.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Class1.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T00:52:26.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICotacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\ICotacaoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\ICotacaoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\ICotacaoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\ICotacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:50:25.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IAtivoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IAtivoRepository.cs",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IAtivoRepository.cs",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IAtivoRepository.cs",
+              "RelativeToolTip": "TesteTecnicoItau.Domain\\Interfaces\\Repositories\\IAtivoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:18:59.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\appsettings.json",
+              "RelativeDocumentMoniker": "TesteTecnicoItau.Infrastructure.KafkaWorker\\appsettings.json",
+              "ToolTip": "C:\\Users\\muril\\source\\repos\\TesteTecnicoItau\\TesteTecnicoItau.Infrastructure.KafkaWorker\\appsettings.json",
+              "RelativeToolTip": "TesteTecnicoItau.Infrastructure.KafkaWorker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T21:52:57.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

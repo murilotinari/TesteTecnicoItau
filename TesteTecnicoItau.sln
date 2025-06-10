@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnicoItau", "TesteTecnicoItau\TesteTecnicoItau.csproj", "{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{EA606A33-2FA3-4623-8F90-C2657D2DAE89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{AD078CEB-EAC9-4A4D-990D-15900DA9DDF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{BAB53976-52BD-4A2D-99BB-171F3DFD64D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{28ACBC22-6C35-4B2A-87BF-CEE6799A0A3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{68FFE29B-5A5C-40E2-BB10-3A44C693F9B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnicoItau.Application", "TesteTecnicoItau.Application\TesteTecnicoItau.Application.csproj", "{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnicoItau.Domain", "TesteTecnicoItau.Domain\TesteTecnicoItau.Domain.csproj", "{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnicoItau.Infrastructure.Api", "TesteTecnicoItau.Infrastructure.Api\TesteTecnicoItau.Infrastructure.Api.csproj", "{D7746E6A-37DD-43E5-B615-38B51FFC68A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnicoItau.Infrastructure.Data", "TesteTecnicoItau.Infrastructure.Data\TesteTecnicoItau.Infrastructure.Data.csproj", "{3579AFC2-7359-4B10-9FAD-11717689B11C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnicoItau.Tests", "TesteTecnicoItau.Tests\TesteTecnicoItau.Tests.csproj", "{A1AA25FE-AD9C-46D6-A571-12832C057DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteTecnicoItau.Infrastructure.KafkaWorker", "TesteTecnicoItau.Infrastructure.KafkaWorker\TesteTecnicoItau.Infrastructure.KafkaWorker.csproj", "{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACD7414-58D1-42CA-A9E2-C22DB08F22F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7746E6A-37DD-43E5-B615-38B51FFC68A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7746E6A-37DD-43E5-B615-38B51FFC68A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7746E6A-37DD-43E5-B615-38B51FFC68A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7746E6A-37DD-43E5-B615-38B51FFC68A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3579AFC2-7359-4B10-9FAD-11717689B11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3579AFC2-7359-4B10-9FAD-11717689B11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3579AFC2-7359-4B10-9FAD-11717689B11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3579AFC2-7359-4B10-9FAD-11717689B11C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AA25FE-AD9C-46D6-A571-12832C057DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AA25FE-AD9C-46D6-A571-12832C057DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AA25FE-AD9C-46D6-A571-12832C057DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AA25FE-AD9C-46D6-A571-12832C057DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F42073-DE6D-4CA4-9E91-D98503D5F0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{694F12C2-E1DC-401A-99DE-DCBEEC87EAF4} = {EA606A33-2FA3-4623-8F90-C2657D2DAE89}
+		{EACD7414-58D1-42CA-A9E2-C22DB08F22F4} = {AD078CEB-EAC9-4A4D-990D-15900DA9DDF0}
+		{61E5E9CD-9A57-454F-A8CE-ABD4A72DA033} = {BAB53976-52BD-4A2D-99BB-171F3DFD64D6}
+		{D7746E6A-37DD-43E5-B615-38B51FFC68A2} = {28ACBC22-6C35-4B2A-87BF-CEE6799A0A3D}
+		{3579AFC2-7359-4B10-9FAD-11717689B11C} = {28ACBC22-6C35-4B2A-87BF-CEE6799A0A3D}
+		{A1AA25FE-AD9C-46D6-A571-12832C057DA9} = {68FFE29B-5A5C-40E2-BB10-3A44C693F9B7}
+		{77F42073-DE6D-4CA4-9E91-D98503D5F0C4} = {28ACBC22-6C35-4B2A-87BF-CEE6799A0A3D}
+	EndGlobalSection
+EndGlobal

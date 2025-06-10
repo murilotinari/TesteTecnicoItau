@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "TesteTecnicoItau.Controllers.ClientesController",
+    "Method": "GetPrecoMedio",
+    "RelativePath": "api/clientes/{usuarioId}/ativos/{ticker}/preco-medio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ticker",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoItau.Controllers.ClientesController",
+    "Method": "GetPosicao",
+    "RelativePath": "api/clientes/{usuarioId}/posicao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoItau.Controllers.CorretoraController",
+    "Method": "GetCorretagemCorretora",
+    "RelativePath": "api/corretora/lucro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoItau.Controllers.CotacoesController",
+    "Method": "GetCotacao",
+    "RelativePath": "api/Cotacoes/{ticker}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticker",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoItau.Controllers.RankingController",
+    "Method": "GetTop10ClientesCorretagem",
+    "RelativePath": "api/ranking/top10clientescorretagem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoItau.Controllers.RankingController",
+    "Method": "GetTop10PosicoesClientes",
+    "RelativePath": "api/ranking/top10clientesposicao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticker",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoItau.Controllers.PosicoesController",
+    "Method": "Popular",
+    "RelativePath": "popular-posicoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

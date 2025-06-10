@@ -1,0 +1,17 @@
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\bin\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.deps.json
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\bin\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\bin\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\bin\Debug\net8.0\TesteTecnicoItau.Application.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\bin\Debug\net8.0\TesteTecnicoItau.Domain.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\bin\Debug\net8.0\TesteTecnicoItau.Application.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\bin\Debug\net8.0\TesteTecnicoItau.Domain.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.csproj.AssemblyReference.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.AssemblyInfoInputs.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.AssemblyInfo.cs
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.csproj.CoreCompileInputs.cache
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTec.33F43224.Up2Date
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\refint\TesteTecnicoItau.Infrastructure.Api.dll
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\TesteTecnicoItau.Infrastructure.Api.pdb
+C:\Users\muril\source\repos\TesteTecnicoItau\TesteTecnicoItau.Infrastructure.Api\obj\Debug\net8.0\ref\TesteTecnicoItau.Infrastructure.Api.dll

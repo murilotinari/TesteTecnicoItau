@@ -1,0 +1,45 @@
+﻿@page "/"
+@inject TesteTecnicoItau.Domain.Interfaces.Infraestructure.ICotacaoB3ApiManager CotacaoService
+
+<h3>Ativos da B3</h3>
+
+@if (ativos == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ticker</th>
+                <th>Preço</th>
+                <th>Alta do dia</th>
+                <th>Baixa do dia</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ativo in ativos) 
+            {
+                <tr>
+                    <td>@ativo.Ticker</td>
+                    <td>R$ @ativo.Price</td>
+                    <td>R$ @ativo.High</td>
+                    <td>R$ @ativo.Low</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    @code {
+        private List<AssetB3Dto>? ativos;
+
+        protected override async Task OnInitializedAsync()
+        {
+            ativos = await CotacaoService.BuscarTodosAtivosAsync();
+        }
+    }
+
+}
