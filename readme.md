@@ -1,6 +1,5 @@
 # 📊 Desafio Técnico - Investimentos e Cotações B3
-
-# easter egg! (o item 9 não foi feito)
+> easter egg! (os itens 6 e 9 não foram feitos)
 
 Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de Engenheiro de Software. O sistema simula a operação de uma corretora de investimentos, permitindo acompanhar operações de clientes, posições, lucro/prejuízo, cotações e estatísticas financeiras.
 
@@ -145,46 +144,3 @@ Essa query retorna todas as operações feitas por um usuário para um determina
 - As tabelas seguem a convenção `snake_case`, comum em bancos relacionais.
 - As relações entre entidades são mantidas com `FOREIGN KEY` para garantir **integridade referencial**.
 - A tabela `posicoes` é atualizada automaticamente em tempo de execução a partir de eventos de cotação recebidos via **Kafka (Worker)**.
-
----
-
-## 🧬 Exemplo de Teste de Mutação
-
-**Conceito:**  
-O teste de mutação consiste em introduzir pequenas alterações (mutações) no código-fonte para verificar se os testes unitários existentes são capazes de detectar essas falhas. Ele mede a eficácia dos testes ao simular erros sutis que um desenvolvedor poderia cometer.
-
-### 🎯 Exemplo de mutação no cálculo de Preço Médio
-
-Suponha o seguinte método correto para calcular o preço médio ponderado:
-
-```csharp
-public static decimal CalcularPrecoMedio(List<OperacaoEntity> operacoes)
-{
-    var compras = operacoes.Where(o => o.TipoOp == "compra").ToList();
-
-    if (!compras.Any())
-        throw new ArgumentException("Não há operações de compra para cálculo do preço médio.");
-
-    var totalQuantidade = compras.Sum(o => o.Qtd);
-    var totalValor = compras.Sum(o => o.Qtd * o.PrecoUnit);
-
-    if (totalQuantidade == 0)
-        throw new ArgumentException("Quantidade total igual a zero.");
-
-    return totalValor / totalQuantidade;
-}
-```
-Agora, imagine uma mutação intencional onde alteramos a condição de filtro de "compra" para "venda":
-
-```diff
-- var compras = operacoes.Where(o => o.TipoOp == "compra").ToList();
-+ var compras = operacoes.Where(o => o.TipoOp == "venda").ToList();
-```
-
-💥 **Efeito da mutação**:  
-Todos os testes que esperavam um cálculo com operações de compra devem falhar.
-
-Se os testes não falharem, é sinal de que a **cobertura de testes está fraca** — eles não validam corretamente o comportamento esperado.
-
-✅ **Importância**:  
-Esse tipo de técnica ajuda a garantir que os testes **não apenas existem**, mas que estão **verificando o que realmente importa** no sistema.
