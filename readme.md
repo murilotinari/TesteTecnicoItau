@@ -1,26 +1,22 @@
 # 📊 Desafio Técnico - Investimentos e Cotações B3
 
-Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de desenvolvedor. O sistema simula a operação de uma corretora de investimentos, permitindo acompanhar operações de clientes, posições, lucro/prejuízo, cotações e estatísticas financeiras.
+Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de Engenheiro de Software. O sistema simula a operação de uma corretora de investimentos, permitindo acompanhar operações de clientes, posições, lucro/prejuízo, cotações e estatísticas financeiras.
 
 ## 🚀 Tecnologias Utilizadas
 
 - ASP.NET Core 8
 - Entity Framework Core (MySQL)
-- Dapper (consultas de alta performance)
 - Kafka (Worker com consumo de cotações)
 - Polly (Retry, Circuit Breaker e Fallback)
 - Swagger / OpenAPI
 - xUnit (testes unitários)
-- AutoMapper
-- Docker (para execução local opcional)
-- Blazor Server (apresentação visual opcional)
 
 ## 🧩 Estrutura do Projeto
 
 - **Domain**: Entidades, interfaces e modelos de domínio
 - **Application**: Regras de negócio e serviços de aplicação
 - **Infrastructure**:
-  - `Data`: Repositórios, EF Core, Dapper
+  - `Data`: Repositórios, EF Core
   - `Api`: Integração com cotação externa (B3 API)
   - `KafkaWorker`: Worker service com consumidor Kafka
 - **Presentation**:
