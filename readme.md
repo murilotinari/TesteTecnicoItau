@@ -36,9 +36,9 @@ Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de
 ✅ Total de corretagem por cliente  
 ✅ API para buscar última cotação de um ativo  
 ✅ API para consultar P&L, posições, top 10 clientes  
-✅ Worker Kafka com retry, fallback e circuit breaker  
+✅ Worker Kafka com retry, fallback e circuit breaker com o Polly  
 ✅ Atualização em tempo real das posições com base na cotação  
-✅ AutoMapper, logs e observabilidade com Polly  
+✅ logs e observabilidade com ILogger  
 ✅ Regras de idempotência para evitar duplicações  
 ✅ Testes unitários com validações positivas e negativas  
 
@@ -50,6 +50,8 @@ Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de
 - `GET /api/admin/top-clientes-posicao`: Top 10 clientes por valor de posição
 - `GET /api/admin/top-clientes-corretagem`: Top 10 clientes que mais pagaram corretagem
 - `GET /api/admin/corretagem-total`: Valor total ganho pela corretora
+
+A documentação do swagger em .json se encontra em docs/
 
 
 # 📊 Estrutura e Justificativa do Banco de Dados
@@ -145,3 +147,103 @@ Essa query retorna todas as operações feitas por um usuário para um determina
 - As tabelas seguem a convenção `snake_case`, comum em bancos relacionais.
 - As relações entre entidades são mantidas com `FOREIGN KEY` para garantir **integridade referencial**.
 - A tabela `posicoes` é atualizada automaticamente em tempo de execução a partir de eventos de cotação recebidos via **Kafka (Worker)**.
+
+---
+
+## 🧬 Exemplo de Teste de Mutação
+
+**Conceito:**  
+O teste de mutação consiste em introduzir pequenas alterações (mutações) no código-fonte para verificar se os testes unitários existentes são capazes de detectar essas falhas. Ele mede a eficácia dos testes ao simular erros sutis que um desenvolvedor poderia cometer.
+
+### 🎯 Exemplo de mutação no cálculo de Preço Médio
+
+Suponha o seguinte método correto para calcular o preço médio ponderado:
+
+```csharp
+public static decimal CalcularPrecoMedio(List<OperacaoEntity> operacoes)
+{
+    var compras = operacoes.Where(o => o.TipoOp == "compra").ToList();
+
+    if (!compras.Any())
+        throw new ArgumentException("Não há operações de compra para cálculo do preço médio.");
+
+    var totalQuantidade = compras.Sum(o => o.Qtd);
+    var totalValor = compras.Sum(o => o.Qtd * o.PrecoUnit);
+
+    if (totalQuantidade == 0)
+        throw new ArgumentException("Quantidade total igual a zero.");
+
+    return totalValor / totalQuantidade;
+}
+```
+Agora, imagine uma mutação intencional onde alteramos a condição de filtro de "compra" para "venda":
+
+```diff
+- var compras = operacoes.Where(o => o.TipoOp == "compra").ToList();
++ var compras = operacoes.Where(o => o.TipoOp == "venda").ToList();
+```
+
+💥 **Efeito da mutação**:  
+Todos os testes que esperavam um cálculo com operações de compra devem falhar.
+
+Se os testes não falharem, é sinal de que a **cobertura de testes está fraca** — eles não validam corretamente o comportamento esperado.
+
+✅ **Importância**:  
+Esse tipo de técnica ajuda a garantir que os testes **não apenas existem**, mas que estão **verificando o que realmente importa** no sistema.
+
+## 🚀 Auto-scaling Horizontal no Serviço
+
+### 🔹 O que é
+Escalabilidade horizontal significa **adicionar novas instâncias do serviço** para distribuir a carga, ao invés de aumentar a capacidade de uma única máquina (escalabilidade vertical).
+
+---
+
+### 🔹 Como aplicar no serviço .NET
+
+1. **Containerize** seu serviço (ex: usando Docker).
+2. **Hospede** em orquestradores escaláveis, como:
+   - Kubernetes (K8s) com `HorizontalPodAutoscaler`
+   - AWS ECS/EKS, Azure AKS, Google GKE
+   - App Services (Azure) ou App Engine (GCP) com auto-scale configurado.
+3. **Configure o auto-scaling por métricas**, como:
+   - CPU ou memória (%)
+   - Fila do Kafka (ex: nº de mensagens não processadas)
+   - Custom metrics (via Prometheus + KEDA)
+
+---
+
+## ⚖️ Balanceamento de Carga: Round-Robin vs Latência
+
+### 🔹 1. Round-Robin
+
+**Como funciona**:  
+Distribui requisições de forma sequencial entre instâncias  
+(exemplo: instância 1 → 2 → 3 → 1 ...).
+
+**Vantagens**:
+- Simples de configurar
+- Boa para cargas uniformes e serviços semelhantes
+
+**Desvantagens**:
+- Não considera carga real de cada instância
+- Pode sobrecarregar instâncias mais lentas
+
+> Ideal para sistemas homogêneos e controlados
+
+---
+
+### 🔹 2. Latência (Least Response Time ou Least Connections)
+
+**Como funciona**:  
+Envia requisições para a instância que está respondendo mais rápido ou com menos conexões ativas.
+
+**Vantagens**:
+- Mais eficiente sob carga desigual
+- Melhor uso dos recursos em sistemas com variação de tempo de resposta
+
+**Desvantagens**:
+- Exige monitoração contínua da performance de instâncias
+- Pode ser mais complexo de configurar
+
+> Ideal para sistemas com variação de carga, consultas longas ou serviços de alta latência como APIs externas
+
