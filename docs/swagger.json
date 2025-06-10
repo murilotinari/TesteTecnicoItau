@@ -1,0 +1,318 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "TesteTecnicoItau",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/clientes/{usuarioId}/ativos/{ticker}/preco-medio": {
+      "get": {
+        "tags": [
+          "Clientes"
+        ],
+        "summary": "Retorna o preço médio de um ativo",
+        "description": "Calcula o preço médio das operações de um ativo específico para um determinado usuário.",
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ticker",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Preço médio calculado com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrecoMedioDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrecoMedioDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrecoMedioDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Ativo não encontrado ou usuário sem operações"
+          }
+        }
+      }
+    },
+    "/api/clientes/{usuarioId}/posicao": {
+      "get": {
+        "tags": [
+          "Clientes"
+        ],
+        "summary": "Retorna a posição global do usuário",
+        "description": "Consulta todas as posições do usuário com saldo, valor de mercado e lucro/prejuízo.",
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Posição global retornada com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PosicaoGlobalDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PosicaoGlobalDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PosicaoGlobalDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Usuário não encontrado ou sem posição"
+          }
+        }
+      }
+    },
+    "/api/corretora/lucro": {
+      "get": {
+        "tags": [
+          "Corretora"
+        ],
+        "summary": "Retorna o lucro total da corretora",
+        "description": "Consulta o valor total arrecadado com taxas de corretagem sobre as operações realizadas.",
+        "responses": {
+          "200": {
+            "description": "Lucro de corretagem obtido com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TotalCorretagemDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TotalCorretagemDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TotalCorretagemDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cotacoes/{ticker}": {
+      "get": {
+        "tags": [
+          "Cotacoes"
+        ],
+        "summary": "Retorna a cotação atual de um ativo",
+        "description": "Consulta a API da B3 e retorna o valor atual de mercado do ativo informado via ticker.",
+        "parameters": [
+          {
+            "name": "ticker",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Cotação retornada com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CotacaoAtivoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CotacaoAtivoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CotacaoAtivoDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Ticker não encontrado ou não disponível na B3"
+          }
+        }
+      }
+    },
+    "/popular-posicoes": {
+      "post": {
+        "tags": [
+          "Posicoes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ranking/top10clientesposicao": {
+      "get": {
+        "tags": [
+          "Ranking"
+        ],
+        "summary": "Top 10 clientes por posição",
+        "description": "Retorna os 10 clientes com os maiores volumes de posição consolidada em ativos.",
+        "responses": {
+          "200": {
+            "description": "Lista de clientes com maiores posições retornada com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ranking/top10clientescorretagem": {
+      "get": {
+        "tags": [
+          "Ranking"
+        ],
+        "summary": "Top 10 clientes por corretagem",
+        "description": "Retorna os 10 clientes que mais geraram receita de corretagem para a corretora.",
+        "responses": {
+          "200": {
+            "description": "Lista de clientes por volume de corretagem retornada com sucesso",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CotacaoAtivoDto": {
+        "type": "object",
+        "properties": {
+          "cotacaoAtivo": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PosicaoGlobalDto": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalInvestido": {
+            "type": "number",
+            "format": "double"
+          },
+          "valorAtualCarteira": {
+            "type": "number",
+            "format": "double"
+          },
+          "lucroPrejuizoTotal": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrecoMedioDto": {
+        "type": "object",
+        "properties": {
+          "precoMedio": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TotalCorretagemDto": {
+        "type": "object",
+        "properties": {
+          "totalCorretagem": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
