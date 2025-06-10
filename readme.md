@@ -1,5 +1,7 @@
 # 📊 Desafio Técnico - Investimentos e Cotações B3
 
+# easter egg! (o item 9 não foi feito)
+
 Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de Engenheiro de Software. O sistema simula a operação de uma corretora de investimentos, permitindo acompanhar operações de clientes, posições, lucro/prejuízo, cotações e estatísticas financeiras.
 
 ## 🚀 Tecnologias Utilizadas
@@ -186,60 +188,3 @@ Se os testes não falharem, é sinal de que a **cobertura de testes está fraca*
 
 ✅ **Importância**:  
 Esse tipo de técnica ajuda a garantir que os testes **não apenas existem**, mas que estão **verificando o que realmente importa** no sistema.
-
-## 🚀 Auto-scaling Horizontal no Serviço
-
-### 🔹 O que é
-Escalabilidade horizontal significa **adicionar novas instâncias do serviço** para distribuir a carga, ao invés de aumentar a capacidade de uma única máquina (escalabilidade vertical).
-
----
-
-### 🔹 Como aplicar no serviço .NET
-
-1. **Containerize** seu serviço (ex: usando Docker).
-2. **Hospede** em orquestradores escaláveis, como:
-   - Kubernetes (K8s) com `HorizontalPodAutoscaler`
-   - AWS ECS/EKS, Azure AKS, Google GKE
-   - App Services (Azure) ou App Engine (GCP) com auto-scale configurado.
-3. **Configure o auto-scaling por métricas**, como:
-   - CPU ou memória (%)
-   - Fila do Kafka (ex: nº de mensagens não processadas)
-   - Custom metrics (via Prometheus + KEDA)
-
----
-
-## ⚖️ Balanceamento de Carga: Round-Robin vs Latência
-
-### 🔹 1. Round-Robin
-
-**Como funciona**:  
-Distribui requisições de forma sequencial entre instâncias  
-(exemplo: instância 1 → 2 → 3 → 1 ...).
-
-**Vantagens**:
-- Simples de configurar
-- Boa para cargas uniformes e serviços semelhantes
-
-**Desvantagens**:
-- Não considera carga real de cada instância
-- Pode sobrecarregar instâncias mais lentas
-
-> Ideal para sistemas homogêneos e controlados
-
----
-
-### 🔹 2. Latência (Least Response Time ou Least Connections)
-
-**Como funciona**:  
-Envia requisições para a instância que está respondendo mais rápido ou com menos conexões ativas.
-
-**Vantagens**:
-- Mais eficiente sob carga desigual
-- Melhor uso dos recursos em sistemas com variação de tempo de resposta
-
-**Desvantagens**:
-- Exige monitoração contínua da performance de instâncias
-- Pode ser mais complexo de configurar
-
-> Ideal para sistemas com variação de carga, consultas longas ou serviços de alta latência como APIs externas
-
